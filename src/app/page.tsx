@@ -27,6 +27,13 @@ export default function Home() {
       >
         To Shop Page&nbsp;&nbsp;➡️
       </Link>
+      <Link
+        href={{
+          pathname: "/gym",
+        }}
+      >
+        To GYM Page&nbsp;&nbsp;➡️
+      </Link>
     </>
   );
 }
