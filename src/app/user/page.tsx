@@ -16,9 +16,9 @@ function UserPage({}: IUserPageProps) {
 
   return (
     <>
-      <div className="text-[50px]">User Page</div>
+      <div className="text-[50px] bg-amber-300 text-black">User Page</div>
       <div
-        className="w-[160px] h-[80px] bg-amber-300 text-black flex justify-center items-center cursor-pointer select-none"
+        className="w-[160px] h-[80px] text-white flex justify-center items-center cursor-pointer select-none"
         onClick={gotoUserSettings}
       >
         To Settings Page

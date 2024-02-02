@@ -7,8 +7,8 @@ interface IUserTemplateProps {
 function UserTemplate({ children }: IUserTemplateProps) {
   return (
     <div>
-      <div>User Template Title</div>
-      <div>{children}</div>
+      <div className="bg-blue-300 text-black">User Template Title</div>
+      <div className="mt-[50px]">{children}</div>
     </div>
   );
 }
