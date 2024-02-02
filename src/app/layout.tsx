@@ -17,7 +17,8 @@ export default function RootLayout({
     <html lang="zh">
       <body>
         <main className="flex min-h-screen flex-col items-center justify-start p-24">
-          {children}
+          <div>AppRootLayout Title</div>
+          <div>{children}</div>
         </main>
       </body>
     </html>
